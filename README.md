@@ -10,3 +10,6 @@ This software allows you to discovery your behavior profile, based on Ned Herrma
 ## The Test
 The test has 25 asks. Each ask is a animal and each animal is a profile. For each kas, you have four chooses (but choose only one).
 In the end, you may see your profile.
+
+![alt text](av-ned-herrmann/github-imgs/gh_av-app.png "App")
+![alt text](av-ned-herrmann/github-imgs/gh_av-test.png "Teste")
