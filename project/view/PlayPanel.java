@@ -113,7 +113,7 @@ public class PlayPanel extends JPanel {
 				"14) Eu sempre gostei de...",
 				"Explorar", "Evitar surpresas",
 				"Focalizar a meta",
-				"Realizar a abordagem natura", "",
+				"Realizar a abordagem natural", "",
 
 				"15) Eu gosto de mudanças se...",
 				"Me der uma vantagem competitiva",

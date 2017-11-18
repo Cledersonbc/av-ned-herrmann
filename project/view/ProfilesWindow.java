@@ -1,5 +1,9 @@
 package view;
 
+/**
+ * @author Clederson Cruz
+ * Each profile behavior is displayed here.
+ */
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -12,6 +16,7 @@ import javax.swing.JScrollPane;
 
 public class ProfilesWindow extends JFrame {
 	public ProfilesWindow() {
+		/* ** Components **/
 		JPanel mainPanel = new JPanel(new GridLayout(5, 6, 5, 5));
 		JScrollPane sPanel = new JScrollPane(mainPanel);
 		
@@ -182,7 +187,7 @@ public class ProfilesWindow extends JFrame {
 		redBlock5.add(returnWhiteJLabel("Felicidade e Igualdade"));
 		redBlock5.add(returnWhiteJLabel("(Cultura da empresa, pensa nos outros)"));
 		
-		
+		/* ** Setup ** */
 		mainPanel.add(new JLabel(""));
 		mainPanel.add(returnJLabel("COMPORTAMENTOS"));
 		mainPanel.add(returnJLabel("PONTOS FORTES"));
@@ -225,6 +230,7 @@ public class ProfilesWindow extends JFrame {
 		this.setVisible(true);
 	}
 	
+	/* ** Return a block with color ** */
 	private JPanel returnBlock(String string, int tam) {
 		JPanel block = new JPanel();
 		block.setLayout(new GridLayout(tam, 1));
@@ -256,6 +262,7 @@ public class ProfilesWindow extends JFrame {
 		return block;
 	}
 
+	/* ** Return a label without color, title ** */
 	private JLabel returnJLabel(String str) {
 		JLabel label = new JLabel(str);
 		label.setHorizontalAlignment(JLabel.CENTER);
@@ -263,6 +270,7 @@ public class ProfilesWindow extends JFrame {
 		return label;
 	}
 	
+	/* ** Return a label with white color, not title ** */
 	private JLabel returnWhiteJLabel(String str) {
 		JLabel label = new JLabel(str);
 		label.setHorizontalAlignment(JLabel.CENTER);
@@ -270,6 +278,7 @@ public class ProfilesWindow extends JFrame {
 		return label;
 	}
 	
+	/* ** Return a label with white color, title ** */
 	private JLabel returnBoldWhiteJLabel(String str) {
 		JLabel label = new JLabel(str);
 		label.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 18));

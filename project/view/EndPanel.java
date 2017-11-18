@@ -156,6 +156,5 @@ public class EndPanel extends JPanel {
 		} else {
 			profileswindow.setVisible(true);
 		}
-		System.out.println(profileswindow);
 	}
 }
