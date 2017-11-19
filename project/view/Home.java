@@ -64,6 +64,7 @@ public class Home implements MouseListener {
 			playPanel = new PlayPanel(this);
 			mainButton = playPanel.finish;
 			SPlayPanel = new JScrollPane(playPanel);
+			SPlayPanel.getVerticalScrollBar().setUnitIncrement(10);
 			window.setContentPane(SPlayPanel);
 			window.validate();
 			window.repaint();

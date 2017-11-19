@@ -220,6 +220,7 @@ public class ProfilesWindow extends JFrame {
 		mainPanel.add(redBlock5);
 		
 		sPanel.setBackground(new Color(255, 255, 255));
+		sPanel.getHorizontalScrollBar().setUnitIncrement(10);
 		mainPanel.setBackground(new Color(255, 255, 255));
 		this.setTitle("Perfis");
 		this.setContentPane(sPanel);
