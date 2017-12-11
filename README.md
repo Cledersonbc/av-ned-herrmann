@@ -1,5 +1,8 @@
 # av-ned-herrmann
-Ned Herrmann's test writted in Java about behavior profile. This software is available only in Portuguese. Video (Portuguese) [YouTube](https://www.youtube.com/watch?v=ZNDaPvgXeyU).
+Ned Herrmann's test writted in Java about behavior profile. This software is available only in Portuguese. Please, see this video tutorial (Portuguese) how to download and use on [YouTube](https://www.youtube.com/watch?v=ZNDaPvgXeyU).
+
+If you would like **download only the executable file (.jar)**, go to ./jar/av-ned-herrmann.jar and click above it. Next, click on **view raw** or **download**.
+Else if you would like **download only the project files**, **DON'T FORGET** to put the **imgs** on path in your IDE.
 
 **Ned Hermann**
 >" William Edward "Ned" Herrmann (1922 – December 24, 1999) was an American creativity researcher and author, known for his research in creative thinking and whole-brain methods. He is considered the 'father of brain dominance technology'." [Wikipedia](https://en.wikipedia.org/wiki/Ned_Herrmann)
