@@ -12,7 +12,7 @@ function create_jar() {
 	fi
 
 	# Compiling...
-	javac -d $tmpdir project/model/*.java project/controller/*.java project/view/*.java
+	javac -d $tmpdir src/model/*.java src/controller/*.java src/view/*.java
 	cd $tmpdir
 	echo "Main-Class: view.Home" > MANIFEST.MF
 	# jar options:
